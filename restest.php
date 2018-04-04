@@ -18,7 +18,7 @@
       <hr class="hr" />
       <?php
       try{
-      	$connect = new PDO('mysql:host=tpereiramjbdd.mysql.db;dbname=tpereiramjbdd','tpereiramjbdd','TAP2406ovh');
+      	$connect = new PDO('mysql:host=localhost;dbname=qcmexpo','root','');
       }catch(PDOException $e){
       	echo "Erreur de connexion";
       }
